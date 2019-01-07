@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83E941EE4F8E3D54BD75C39D /* Pods_BankAndNetPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8A37EBF73A89ED421100E1 /* Pods_BankAndNetPoint.framework */; };
+		D01E688E21DD981A00F26184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E688D21DD981A00F26184 /* AppDelegate.m */; };
+		D01E689621DD981E00F26184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01E689521DD981E00F26184 /* Assets.xcassets */; };
+		D01E689C21DD981E00F26184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E689B21DD981E00F26184 /* main.m */; };
+		D01E68B321DD9BC300F26184 /* JRViewCoordinateMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68A521DD9BC300F26184 /* JRViewCoordinateMacro.m */; };
+		D01E68B421DD9BC300F26184 /* JRNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68A821DD9BC300F26184 /* JRNetworking.m */; };
+		D01E68B521DD9BC300F26184 /* MBProgressHUD+JRAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68AB21DD9BC300F26184 /* MBProgressHUD+JRAdditional.m */; };
+		D01E68B621DD9BC300F26184 /* JRBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68B021DD9BC300F26184 /* JRBaseTabBarController.m */; };
+		D01E68B721DD9BC300F26184 /* JRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68B121DD9BC300F26184 /* JRBaseNavigationController.m */; };
+		D01E68B821DD9BC300F26184 /* JRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68B221DD9BC300F26184 /* JRBaseViewController.m */; };
+		D01E68BC21DDA3D600F26184 /* MQLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01E68BB21DDA3D600F26184 /* MQLNavigationController.m */; };
+		D01E68CD21DDA85D00F26184 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D01E68CB21DDA85D00F26184 /* InfoPlist.strings */; };
+		D01E68D321DDA91900F26184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01E68D221DDA91900F26184 /* LaunchScreen.storyboard */; };
+		D01EFC0A21E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC0921E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.m */; };
+		D01EFC0D21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC0C21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.m */; };
+		D01EFC1121E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC0F21E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.m */; };
+		D01EFC1221E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01EFC1021E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.xib */; };
+		D01EFC1621E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC1421E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.m */; };
+		D01EFC1721E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01EFC1521E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.xib */; };
+		D03F981421E22FB0003F4CD2 /* MQLAreaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97E321E22FB0003F4CD2 /* MQLAreaDataModel.m */; };
+		D03F981521E22FB0003F4CD2 /* MQLAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F97E821E22FB0003F4CD2 /* MQLAreaViewController.xib */; };
+		D03F981621E22FB0003F4CD2 /* MQLAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97E921E22FB0003F4CD2 /* MQLAreaViewController.m */; };
+		D03F981721E22FB0003F4CD2 /* MQLFirstAreaHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F97EB21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.xib */; };
+		D03F981821E22FB0003F4CD2 /* MQLFirstAreaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97EC21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.m */; };
+		D03F981921E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F97ED21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.xib */; };
+		D03F981A21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97EE21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.m */; };
+		D03F981B21E22FB0003F4CD2 /* MQLAreaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97F221E22FB0003F4CD2 /* MQLAreaViewModel.m */; };
+		D03F981C21E22FB0003F4CD2 /* MQLCNAPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97F721E22FB0003F4CD2 /* MQLCNAPSViewController.m */; };
+		D03F981D21E22FB0003F4CD2 /* MQLCNAPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F97F821E22FB0003F4CD2 /* MQLCNAPSViewController.xib */; };
+		D03F981E21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F97FB21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.m */; };
+		D03F981F21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F97FD21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.xib */; };
+		D03F982021E22FB0003F4CD2 /* MQLCNAPSDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F980021E22FB0003F4CD2 /* MQLCNAPSDataModel.m */; };
+		D03F982121E22FB0003F4CD2 /* MQLCNAPSViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F980321E22FB0003F4CD2 /* MQLCNAPSViewModel.m */; };
+		D03F982221E22FB0003F4CD2 /* MQLRootViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F980721E22FB0003F4CD2 /* MQLRootViewModel.m */; };
+		D03F982321E22FB0003F4CD2 /* MQLRootDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F980A21E22FB0003F4CD2 /* MQLRootDataModel.m */; };
+		D03F982421E22FB0003F4CD2 /* MQLRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F980D21E22FB0003F4CD2 /* MQLRootViewController.xib */; };
+		D03F982521E22FB0003F4CD2 /* MQLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F980E21E22FB0003F4CD2 /* MQLRootViewController.m */; };
+		D03F982621E22FB0003F4CD2 /* MQLBankCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F981121E22FB0003F4CD2 /* MQLBankCollectionViewCell.xib */; };
+		D03F982721E22FB0003F4CD2 /* MQLBankCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F981321E22FB0003F4CD2 /* MQLBankCollectionViewCell.m */; };
+		D03F983221E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F983021E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.m */; };
+		D03F983321E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F983121E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.xib */; };
+		D03F983621E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F983521E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.m */; };
+		D03F983921E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F983821E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.m */; };
+		D03F983D21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F983B21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.m */; };
+		D03F983E21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F983C21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.xib */; };
+		D03F984721E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F984621E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.m */; };
+		D03F984A21E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F984921E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.m */; };
+		D03F984E21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F984C21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.m */; };
+		D03F984F21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F984D21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.xib */; };
+		D03F985321E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F985121E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.m */; };
+		D03F985421E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F985221E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.xib */; };
+		D03F985E21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F985C21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.m */; };
+		D03F985F21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F985D21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.xib */; };
+		D03F986221E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F986121E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.m */; };
+		D03F986521E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F986421E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.m */; };
+		D03F986921E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F986721E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.m */; };
+		D03F986A21E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03F986821E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FE24CAE086CA39129535BA6 /* Pods-BankAndNetPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankAndNetPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankAndNetPoint/Pods-BankAndNetPoint.release.xcconfig"; sourceTree = "<group>"; };
+		AC8A37EBF73A89ED421100E1 /* Pods_BankAndNetPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankAndNetPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7FC52F1621654C5FBC19FA /* Pods-BankAndNetPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankAndNetPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankAndNetPoint/Pods-BankAndNetPoint.debug.xcconfig"; sourceTree = "<group>"; };
+		D01E688921DD981A00F26184 /* BankAndNetPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankAndNetPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01E688C21DD981A00F26184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D01E688D21DD981A00F26184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D01E689521DD981E00F26184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01E689A21DD981E00F26184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01E689B21DD981E00F26184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D01E68A421DD9BC300F26184 /* JRViewCoordinateMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRViewCoordinateMacro.h; sourceTree = "<group>"; };
+		D01E68A521DD9BC300F26184 /* JRViewCoordinateMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRViewCoordinateMacro.m; sourceTree = "<group>"; };
+		D01E68A721DD9BC300F26184 /* JRNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRNetworking.h; sourceTree = "<group>"; };
+		D01E68A821DD9BC300F26184 /* JRNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRNetworking.m; sourceTree = "<group>"; };
+		D01E68AA21DD9BC300F26184 /* MBProgressHUD+JRAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JRAdditional.h"; sourceTree = "<group>"; };
+		D01E68AB21DD9BC300F26184 /* MBProgressHUD+JRAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JRAdditional.m"; sourceTree = "<group>"; };
+		D01E68AD21DD9BC300F26184 /* JRBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBaseTabBarController.h; sourceTree = "<group>"; };
+		D01E68AE21DD9BC300F26184 /* JRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBaseViewController.h; sourceTree = "<group>"; };
+		D01E68AF21DD9BC300F26184 /* JRBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBaseNavigationController.h; sourceTree = "<group>"; };
+		D01E68B021DD9BC300F26184 /* JRBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBaseTabBarController.m; sourceTree = "<group>"; };
+		D01E68B121DD9BC300F26184 /* JRBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBaseNavigationController.m; sourceTree = "<group>"; };
+		D01E68B221DD9BC300F26184 /* JRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBaseViewController.m; sourceTree = "<group>"; };
+		D01E68B921DD9D2200F26184 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D01E68BA21DDA3D600F26184 /* MQLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLNavigationController.h; sourceTree = "<group>"; };
+		D01E68BB21DDA3D600F26184 /* MQLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLNavigationController.m; sourceTree = "<group>"; };
+		D01E68CC21DDA85D00F26184 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D01E68CF21DDA86800F26184 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D01E68D221DDA91900F26184 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D01EFC0821E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiChaXunFinalDataModel.h; sourceTree = "<group>"; };
+		D01EFC0921E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiChaXunFinalDataModel.m; sourceTree = "<group>"; };
+		D01EFC0B21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiChaXunFinalViewModel.h; sourceTree = "<group>"; };
+		D01EFC0C21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiChaXunFinalViewModel.m; sourceTree = "<group>"; };
+		D01EFC0E21E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiChaXunFinalViewController.h; sourceTree = "<group>"; };
+		D01EFC0F21E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiChaXunFinalViewController.m; sourceTree = "<group>"; };
+		D01EFC1021E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiChaXunFinalViewController.xib; sourceTree = "<group>"; };
+		D01EFC1321E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiChaXunFinalCollectionViewCell.h; sourceTree = "<group>"; };
+		D01EFC1421E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiChaXunFinalCollectionViewCell.m; sourceTree = "<group>"; };
+		D01EFC1521E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiChaXunFinalCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03F97E321E22FB0003F4CD2 /* MQLAreaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLAreaDataModel.m; sourceTree = "<group>"; };
+		D03F97E421E22FB0003F4CD2 /* MQLAreaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLAreaDataModel.h; sourceTree = "<group>"; };
+		D03F97E721E22FB0003F4CD2 /* MQLAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLAreaViewController.h; sourceTree = "<group>"; };
+		D03F97E821E22FB0003F4CD2 /* MQLAreaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLAreaViewController.xib; sourceTree = "<group>"; };
+		D03F97E921E22FB0003F4CD2 /* MQLAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLAreaViewController.m; sourceTree = "<group>"; };
+		D03F97EB21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLFirstAreaHeaderView.xib; sourceTree = "<group>"; };
+		D03F97EC21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLFirstAreaHeaderView.m; sourceTree = "<group>"; };
+		D03F97ED21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLSecondAreaCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03F97EE21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLSecondAreaCollectionViewCell.m; sourceTree = "<group>"; };
+		D03F97EF21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLFirstAreaHeaderView.h; sourceTree = "<group>"; };
+		D03F97F021E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLSecondAreaCollectionViewCell.h; sourceTree = "<group>"; };
+		D03F97F221E22FB0003F4CD2 /* MQLAreaViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLAreaViewModel.m; sourceTree = "<group>"; };
+		D03F97F321E22FB0003F4CD2 /* MQLAreaViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLAreaViewModel.h; sourceTree = "<group>"; };
+		D03F97F721E22FB0003F4CD2 /* MQLCNAPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLCNAPSViewController.m; sourceTree = "<group>"; };
+		D03F97F821E22FB0003F4CD2 /* MQLCNAPSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLCNAPSViewController.xib; sourceTree = "<group>"; };
+		D03F97F921E22FB0003F4CD2 /* MQLCNAPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLCNAPSViewController.h; sourceTree = "<group>"; };
+		D03F97FB21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLCNAPSCollectionViewCell.m; sourceTree = "<group>"; };
+		D03F97FC21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLCNAPSCollectionViewCell.h; sourceTree = "<group>"; };
+		D03F97FD21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLCNAPSCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03F97FF21E22FB0003F4CD2 /* MQLCNAPSDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLCNAPSDataModel.h; sourceTree = "<group>"; };
+		D03F980021E22FB0003F4CD2 /* MQLCNAPSDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLCNAPSDataModel.m; sourceTree = "<group>"; };
+		D03F980221E22FB0003F4CD2 /* MQLCNAPSViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLCNAPSViewModel.h; sourceTree = "<group>"; };
+		D03F980321E22FB0003F4CD2 /* MQLCNAPSViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLCNAPSViewModel.m; sourceTree = "<group>"; };
+		D03F980621E22FB0003F4CD2 /* MQLRootViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLRootViewModel.h; sourceTree = "<group>"; };
+		D03F980721E22FB0003F4CD2 /* MQLRootViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLRootViewModel.m; sourceTree = "<group>"; };
+		D03F980921E22FB0003F4CD2 /* MQLRootDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLRootDataModel.h; sourceTree = "<group>"; };
+		D03F980A21E22FB0003F4CD2 /* MQLRootDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLRootDataModel.m; sourceTree = "<group>"; };
+		D03F980D21E22FB0003F4CD2 /* MQLRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLRootViewController.xib; sourceTree = "<group>"; };
+		D03F980E21E22FB0003F4CD2 /* MQLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLRootViewController.m; sourceTree = "<group>"; };
+		D03F980F21E22FB0003F4CD2 /* MQLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLRootViewController.h; sourceTree = "<group>"; };
+		D03F981121E22FB0003F4CD2 /* MQLBankCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLBankCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03F981221E22FB0003F4CD2 /* MQLBankCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLBankCollectionViewCell.h; sourceTree = "<group>"; };
+		D03F981321E22FB0003F4CD2 /* MQLBankCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLBankCollectionViewCell.m; sourceTree = "<group>"; };
+		D03F982F21E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiShangJiaViewController.h; sourceTree = "<group>"; };
+		D03F983021E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiShangJiaViewController.m; sourceTree = "<group>"; };
+		D03F983121E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiShangJiaViewController.xib; sourceTree = "<group>"; };
+		D03F983421E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiShangJiaDataModel.h; sourceTree = "<group>"; };
+		D03F983521E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiShangJiaDataModel.m; sourceTree = "<group>"; };
+		D03F983721E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiShangJiaViewModel.h; sourceTree = "<group>"; };
+		D03F983821E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiShangJiaViewModel.m; sourceTree = "<group>"; };
+		D03F983A21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiShangJiaCollectionViewCell.h; sourceTree = "<group>"; };
+		D03F983B21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiShangJiaCollectionViewCell.m; sourceTree = "<group>"; };
+		D03F983C21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiShangJiaCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03F984521E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiFirstAreaDataModel.h; sourceTree = "<group>"; };
+		D03F984621E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiFirstAreaDataModel.m; sourceTree = "<group>"; };
+		D03F984821E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiFirstAreaViewModel.h; sourceTree = "<group>"; };
+		D03F984921E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiFirstAreaViewModel.m; sourceTree = "<group>"; };
+		D03F984B21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiFirstAreaViewController.h; sourceTree = "<group>"; };
+		D03F984C21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiFirstAreaViewController.m; sourceTree = "<group>"; };
+		D03F984D21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiFirstAreaViewController.xib; sourceTree = "<group>"; };
+		D03F985021E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiFirstAreaCollectionViewCell.h; sourceTree = "<group>"; };
+		D03F985121E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiFirstAreaCollectionViewCell.m; sourceTree = "<group>"; };
+		D03F985221E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiFirstAreaCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03F985B21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiSecondAreaViewController.h; sourceTree = "<group>"; };
+		D03F985C21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiSecondAreaViewController.m; sourceTree = "<group>"; };
+		D03F985D21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiSecondAreaViewController.xib; sourceTree = "<group>"; };
+		D03F986021E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiSecondAreaDataModel.h; sourceTree = "<group>"; };
+		D03F986121E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiSecondAreaDataModel.m; sourceTree = "<group>"; };
+		D03F986321E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiSecondAreaViewModel.h; sourceTree = "<group>"; };
+		D03F986421E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiSecondAreaViewModel.m; sourceTree = "<group>"; };
+		D03F986621E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLKuaiDiSecondAreaCollectionViewCell.h; sourceTree = "<group>"; };
+		D03F986721E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLKuaiDiSecondAreaCollectionViewCell.m; sourceTree = "<group>"; };
+		D03F986821E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLKuaiDiSecondAreaCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01E688621DD981A00F26184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E941EE4F8E3D54BD75C39D /* Pods_BankAndNetPoint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01E688021DD981A00F26184 = {
+			isa = PBXGroup;
+			children = (
+				D03F982821E22FBB003F4CD2 /* KuaiDiChaXun */,
+				D03F97E021E22FB0003F4CD2 /* YinHangWangDian */,
+				D01E68A221DD9BC300F26184 /* Libs */,
+				D01E688B21DD981A00F26184 /* BankAndNetPoint */,
+				D01E688A21DD981A00F26184 /* Products */,
+				DB369DD0BDF3F707861184A1 /* Pods */,
+				ECE8A1D553DEC0C9A121DA3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D01E688A21DD981A00F26184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01E688921DD981A00F26184 /* BankAndNetPoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01E688B21DD981A00F26184 /* BankAndNetPoint */ = {
+			isa = PBXGroup;
+			children = (
+				D01E68BA21DDA3D600F26184 /* MQLNavigationController.h */,
+				D01E68BB21DDA3D600F26184 /* MQLNavigationController.m */,
+				D01E68CB21DDA85D00F26184 /* InfoPlist.strings */,
+				D01E688C21DD981A00F26184 /* AppDelegate.h */,
+				D01E688D21DD981A00F26184 /* AppDelegate.m */,
+				D01E689521DD981E00F26184 /* Assets.xcassets */,
+				D01E689A21DD981E00F26184 /* Info.plist */,
+				D01E689B21DD981E00F26184 /* main.m */,
+				D01E68B921DD9D2200F26184 /* PrefixHeader.pch */,
+				D01E68D221DDA91900F26184 /* LaunchScreen.storyboard */,
+			);
+			path = BankAndNetPoint;
+			sourceTree = "<group>";
+		};
+		D01E68A221DD9BC300F26184 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				D01E68A321DD9BC300F26184 /* ViewCoordinateMacro */,
+				D01E68A621DD9BC300F26184 /* Networking */,
+				D01E68A921DD9BC300F26184 /* MBProgressHUD+JRAdditional */,
+				D01E68AC21DD9BC300F26184 /* BaseViewController */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		D01E68A321DD9BC300F26184 /* ViewCoordinateMacro */ = {
+			isa = PBXGroup;
+			children = (
+				D01E68A421DD9BC300F26184 /* JRViewCoordinateMacro.h */,
+				D01E68A521DD9BC300F26184 /* JRViewCoordinateMacro.m */,
+			);
+			path = ViewCoordinateMacro;
+			sourceTree = "<group>";
+		};
+		D01E68A621DD9BC300F26184 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D01E68A721DD9BC300F26184 /* JRNetworking.h */,
+				D01E68A821DD9BC300F26184 /* JRNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D01E68A921DD9BC300F26184 /* MBProgressHUD+JRAdditional */ = {
+			isa = PBXGroup;
+			children = (
+				D01E68AA21DD9BC300F26184 /* MBProgressHUD+JRAdditional.h */,
+				D01E68AB21DD9BC300F26184 /* MBProgressHUD+JRAdditional.m */,
+			);
+			path = "MBProgressHUD+JRAdditional";
+			sourceTree = "<group>";
+		};
+		D01E68AC21DD9BC300F26184 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01E68AD21DD9BC300F26184 /* JRBaseTabBarController.h */,
+				D01E68AE21DD9BC300F26184 /* JRBaseViewController.h */,
+				D01E68AF21DD9BC300F26184 /* JRBaseNavigationController.h */,
+				D01E68B021DD9BC300F26184 /* JRBaseTabBarController.m */,
+				D01E68B121DD9BC300F26184 /* JRBaseNavigationController.m */,
+				D01E68B221DD9BC300F26184 /* JRBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		D01EFC0221E338D800B46957 /* KuaiDiChaXunFinal */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC0721E3392000B46957 /* MQLKuaiDiChaXunFinalDataModel */,
+				D01EFC0621E3391500B46957 /* MQLKuaiDiChaXunFinalViewModel */,
+				D01EFC0321E338F900B46957 /* MQLKuaiDiChaXunFinalViewController */,
+			);
+			path = KuaiDiChaXunFinal;
+			sourceTree = "<group>";
+		};
+		D01EFC0321E338F900B46957 /* MQLKuaiDiChaXunFinalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC0521E3390C00B46957 /* View */,
+				D01EFC0421E3390500B46957 /* Controller */,
+			);
+			path = MQLKuaiDiChaXunFinalViewController;
+			sourceTree = "<group>";
+		};
+		D01EFC0421E3390500B46957 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC0E21E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.h */,
+				D01EFC0F21E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.m */,
+				D01EFC1021E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D01EFC0521E3390C00B46957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC1321E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.h */,
+				D01EFC1421E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.m */,
+				D01EFC1521E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D01EFC0621E3391500B46957 /* MQLKuaiDiChaXunFinalViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC0B21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.h */,
+				D01EFC0C21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.m */,
+			);
+			path = MQLKuaiDiChaXunFinalViewModel;
+			sourceTree = "<group>";
+		};
+		D01EFC0721E3392000B46957 /* MQLKuaiDiChaXunFinalDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC0821E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.h */,
+				D01EFC0921E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.m */,
+			);
+			path = MQLKuaiDiChaXunFinalDataModel;
+			sourceTree = "<group>";
+		};
+		D03F97E021E22FB0003F4CD2 /* YinHangWangDian */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97E121E22FB0003F4CD2 /* Area */,
+				D03F97F421E22FB0003F4CD2 /* CNAPS */,
+				D03F980421E22FB0003F4CD2 /* Root */,
+			);
+			path = YinHangWangDian;
+			sourceTree = "<group>";
+		};
+		D03F97E121E22FB0003F4CD2 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97E221E22FB0003F4CD2 /* MQLAreaDataModel */,
+				D03F97E521E22FB0003F4CD2 /* MQLAreaViewController */,
+				D03F97F121E22FB0003F4CD2 /* MQLAreaViewModel */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		D03F97E221E22FB0003F4CD2 /* MQLAreaDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97E321E22FB0003F4CD2 /* MQLAreaDataModel.m */,
+				D03F97E421E22FB0003F4CD2 /* MQLAreaDataModel.h */,
+			);
+			path = MQLAreaDataModel;
+			sourceTree = "<group>";
+		};
+		D03F97E521E22FB0003F4CD2 /* MQLAreaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97E621E22FB0003F4CD2 /* Controller */,
+				D03F97EA21E22FB0003F4CD2 /* View */,
+			);
+			path = MQLAreaViewController;
+			sourceTree = "<group>";
+		};
+		D03F97E621E22FB0003F4CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97E721E22FB0003F4CD2 /* MQLAreaViewController.h */,
+				D03F97E821E22FB0003F4CD2 /* MQLAreaViewController.xib */,
+				D03F97E921E22FB0003F4CD2 /* MQLAreaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D03F97EA21E22FB0003F4CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97EB21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.xib */,
+				D03F97EC21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.m */,
+				D03F97ED21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.xib */,
+				D03F97EE21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.m */,
+				D03F97EF21E22FB0003F4CD2 /* MQLFirstAreaHeaderView.h */,
+				D03F97F021E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03F97F121E22FB0003F4CD2 /* MQLAreaViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97F221E22FB0003F4CD2 /* MQLAreaViewModel.m */,
+				D03F97F321E22FB0003F4CD2 /* MQLAreaViewModel.h */,
+			);
+			path = MQLAreaViewModel;
+			sourceTree = "<group>";
+		};
+		D03F97F421E22FB0003F4CD2 /* CNAPS */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97F521E22FB0003F4CD2 /* MQLCNAPSViewController */,
+				D03F97FE21E22FB0003F4CD2 /* MQLCNAPSDataModel */,
+				D03F980121E22FB0003F4CD2 /* MQLCNAPSViewModel */,
+			);
+			path = CNAPS;
+			sourceTree = "<group>";
+		};
+		D03F97F521E22FB0003F4CD2 /* MQLCNAPSViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97F621E22FB0003F4CD2 /* Controller */,
+				D03F97FA21E22FB0003F4CD2 /* View */,
+			);
+			path = MQLCNAPSViewController;
+			sourceTree = "<group>";
+		};
+		D03F97F621E22FB0003F4CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97F721E22FB0003F4CD2 /* MQLCNAPSViewController.m */,
+				D03F97F821E22FB0003F4CD2 /* MQLCNAPSViewController.xib */,
+				D03F97F921E22FB0003F4CD2 /* MQLCNAPSViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D03F97FA21E22FB0003F4CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97FB21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.m */,
+				D03F97FC21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.h */,
+				D03F97FD21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03F97FE21E22FB0003F4CD2 /* MQLCNAPSDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F97FF21E22FB0003F4CD2 /* MQLCNAPSDataModel.h */,
+				D03F980021E22FB0003F4CD2 /* MQLCNAPSDataModel.m */,
+			);
+			path = MQLCNAPSDataModel;
+			sourceTree = "<group>";
+		};
+		D03F980121E22FB0003F4CD2 /* MQLCNAPSViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F980221E22FB0003F4CD2 /* MQLCNAPSViewModel.h */,
+				D03F980321E22FB0003F4CD2 /* MQLCNAPSViewModel.m */,
+			);
+			path = MQLCNAPSViewModel;
+			sourceTree = "<group>";
+		};
+		D03F980421E22FB0003F4CD2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				D03F980521E22FB0003F4CD2 /* MQLRootViewModel */,
+				D03F980821E22FB0003F4CD2 /* MQLRootDataModel */,
+				D03F980B21E22FB0003F4CD2 /* MQLRootViewController */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		D03F980521E22FB0003F4CD2 /* MQLRootViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F980621E22FB0003F4CD2 /* MQLRootViewModel.h */,
+				D03F980721E22FB0003F4CD2 /* MQLRootViewModel.m */,
+			);
+			path = MQLRootViewModel;
+			sourceTree = "<group>";
+		};
+		D03F980821E22FB0003F4CD2 /* MQLRootDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F980921E22FB0003F4CD2 /* MQLRootDataModel.h */,
+				D03F980A21E22FB0003F4CD2 /* MQLRootDataModel.m */,
+			);
+			path = MQLRootDataModel;
+			sourceTree = "<group>";
+		};
+		D03F980B21E22FB0003F4CD2 /* MQLRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03F980C21E22FB0003F4CD2 /* Controller */,
+				D03F981021E22FB0003F4CD2 /* View */,
+			);
+			path = MQLRootViewController;
+			sourceTree = "<group>";
+		};
+		D03F980C21E22FB0003F4CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03F980D21E22FB0003F4CD2 /* MQLRootViewController.xib */,
+				D03F980E21E22FB0003F4CD2 /* MQLRootViewController.m */,
+				D03F980F21E22FB0003F4CD2 /* MQLRootViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D03F981021E22FB0003F4CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03F981121E22FB0003F4CD2 /* MQLBankCollectionViewCell.xib */,
+				D03F981221E22FB0003F4CD2 /* MQLBankCollectionViewCell.h */,
+				D03F981321E22FB0003F4CD2 /* MQLBankCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03F982821E22FBB003F4CD2 /* KuaiDiChaXun */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC0221E338D800B46957 /* KuaiDiChaXunFinal */,
+				D03F985521E31F26003F4CD2 /* KuaiDiSecondArea */,
+				D03F983F21E2EB7F003F4CD2 /* KuaiDiFirstArea */,
+				D03F982921E230A5003F4CD2 /* KuaiDiShangJia */,
+			);
+			path = KuaiDiChaXun;
+			sourceTree = "<group>";
+		};
+		D03F982921E230A5003F4CD2 /* KuaiDiShangJia */ = {
+			isa = PBXGroup;
+			children = (
+				D03F982E21E2312C003F4CD2 /* MQLKuaiDiShangJiaDataModel */,
+				D03F982D21E23122003F4CD2 /* MQLKuaiDiShangJiaViewModel */,
+				D03F982A21E230B9003F4CD2 /* MQLKuaiDiShangJiaViewController */,
+			);
+			path = KuaiDiShangJia;
+			sourceTree = "<group>";
+		};
+		D03F982A21E230B9003F4CD2 /* MQLKuaiDiShangJiaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03F982C21E23105003F4CD2 /* View */,
+				D03F982B21E230E6003F4CD2 /* Controller */,
+			);
+			path = MQLKuaiDiShangJiaViewController;
+			sourceTree = "<group>";
+		};
+		D03F982B21E230E6003F4CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03F982F21E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.h */,
+				D03F983021E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.m */,
+				D03F983121E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D03F982C21E23105003F4CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03F983A21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.h */,
+				D03F983B21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.m */,
+				D03F983C21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03F982D21E23122003F4CD2 /* MQLKuaiDiShangJiaViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F983721E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.h */,
+				D03F983821E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.m */,
+			);
+			path = MQLKuaiDiShangJiaViewModel;
+			sourceTree = "<group>";
+		};
+		D03F982E21E2312C003F4CD2 /* MQLKuaiDiShangJiaDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F983421E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.h */,
+				D03F983521E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.m */,
+			);
+			path = MQLKuaiDiShangJiaDataModel;
+			sourceTree = "<group>";
+		};
+		D03F983F21E2EB7F003F4CD2 /* KuaiDiFirstArea */ = {
+			isa = PBXGroup;
+			children = (
+				D03F984421E2EE33003F4CD2 /* MQLKuaiDiFirstAreaDataModel */,
+				D03F984321E2EE21003F4CD2 /* MQLKuaiDiFirstAreaViewModel */,
+				D03F984021E2EDFF003F4CD2 /* MQLKuaiDiFirstAreaViewController */,
+			);
+			path = KuaiDiFirstArea;
+			sourceTree = "<group>";
+		};
+		D03F984021E2EDFF003F4CD2 /* MQLKuaiDiFirstAreaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03F984221E2EE1B003F4CD2 /* View */,
+				D03F984121E2EE14003F4CD2 /* Controller */,
+			);
+			path = MQLKuaiDiFirstAreaViewController;
+			sourceTree = "<group>";
+		};
+		D03F984121E2EE14003F4CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03F984B21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.h */,
+				D03F984C21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.m */,
+				D03F984D21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D03F984221E2EE1B003F4CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03F985021E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.h */,
+				D03F985121E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.m */,
+				D03F985221E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03F984321E2EE21003F4CD2 /* MQLKuaiDiFirstAreaViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F984821E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.h */,
+				D03F984921E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.m */,
+			);
+			path = MQLKuaiDiFirstAreaViewModel;
+			sourceTree = "<group>";
+		};
+		D03F984421E2EE33003F4CD2 /* MQLKuaiDiFirstAreaDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F984521E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.h */,
+				D03F984621E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.m */,
+			);
+			path = MQLKuaiDiFirstAreaDataModel;
+			sourceTree = "<group>";
+		};
+		D03F985521E31F26003F4CD2 /* KuaiDiSecondArea */ = {
+			isa = PBXGroup;
+			children = (
+				D03F985A21E31F6F003F4CD2 /* MQLKuaiDiSecondAreaDataModel */,
+				D03F985921E31F56003F4CD2 /* MQLKuaiDiSecondAreaViewModel */,
+				D03F985621E31F36003F4CD2 /* MQLKuaiDiSecondAreaViewController */,
+			);
+			path = KuaiDiSecondArea;
+			sourceTree = "<group>";
+		};
+		D03F985621E31F36003F4CD2 /* MQLKuaiDiSecondAreaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03F985821E31F4D003F4CD2 /* View */,
+				D03F985721E31F46003F4CD2 /* Controller */,
+			);
+			path = MQLKuaiDiSecondAreaViewController;
+			sourceTree = "<group>";
+		};
+		D03F985721E31F46003F4CD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D03F985B21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.h */,
+				D03F985C21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.m */,
+				D03F985D21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D03F985821E31F4D003F4CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D03F986621E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.h */,
+				D03F986721E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.m */,
+				D03F986821E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03F985921E31F56003F4CD2 /* MQLKuaiDiSecondAreaViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F986321E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.h */,
+				D03F986421E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.m */,
+			);
+			path = MQLKuaiDiSecondAreaViewModel;
+			sourceTree = "<group>";
+		};
+		D03F985A21E31F6F003F4CD2 /* MQLKuaiDiSecondAreaDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D03F986021E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.h */,
+				D03F986121E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.m */,
+			);
+			path = MQLKuaiDiSecondAreaDataModel;
+			sourceTree = "<group>";
+		};
+		DB369DD0BDF3F707861184A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FC52F1621654C5FBC19FA /* Pods-BankAndNetPoint.debug.xcconfig */,
+				1FE24CAE086CA39129535BA6 /* Pods-BankAndNetPoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECE8A1D553DEC0C9A121DA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A37EBF73A89ED421100E1 /* Pods_BankAndNetPoint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01E688821DD981A00F26184 /* BankAndNetPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01E689F21DD981E00F26184 /* Build configuration list for PBXNativeTarget "BankAndNetPoint" */;
+			buildPhases = (
+				3ABF8BBC9F15C8036A2CD852 /* [CP] Check Pods Manifest.lock */,
+				D01E688521DD981A00F26184 /* Sources */,
+				D01E688621DD981A00F26184 /* Frameworks */,
+				D01E688721DD981A00F26184 /* Resources */,
+				7A336016071A1BF2D0BA72F0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankAndNetPoint;
+			productName = BankAndNetPoint;
+			productReference = D01E688921DD981A00F26184 /* BankAndNetPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01E688121DD981A00F26184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ma qianli";
+				TargetAttributes = {
+					D01E688821DD981A00F26184 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D01E688421DD981A00F26184 /* Build configuration list for PBXProject "BankAndNetPoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = D01E688021DD981A00F26184;
+			productRefGroup = D01E688A21DD981A00F26184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01E688821DD981A00F26184 /* BankAndNetPoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01E688721DD981A00F26184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03F981521E22FB0003F4CD2 /* MQLAreaViewController.xib in Resources */,
+				D01EFC1221E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.xib in Resources */,
+				D03F981721E22FB0003F4CD2 /* MQLFirstAreaHeaderView.xib in Resources */,
+				D03F981D21E22FB0003F4CD2 /* MQLCNAPSViewController.xib in Resources */,
+				D03F982621E22FB0003F4CD2 /* MQLBankCollectionViewCell.xib in Resources */,
+				D03F985421E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.xib in Resources */,
+				D01E68CD21DDA85D00F26184 /* InfoPlist.strings in Resources */,
+				D03F983E21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.xib in Resources */,
+				D03F986A21E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.xib in Resources */,
+				D03F984F21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.xib in Resources */,
+				D01EFC1721E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.xib in Resources */,
+				D01E689621DD981E00F26184 /* Assets.xcassets in Resources */,
+				D03F983321E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.xib in Resources */,
+				D03F982421E22FB0003F4CD2 /* MQLRootViewController.xib in Resources */,
+				D03F985F21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.xib in Resources */,
+				D03F981F21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.xib in Resources */,
+				D03F981921E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.xib in Resources */,
+				D01E68D321DDA91900F26184 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ABF8BBC9F15C8036A2CD852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankAndNetPoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A336016071A1BF2D0BA72F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BankAndNetPoint/Pods-BankAndNetPoint-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/hpple/hpple.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hpple.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BankAndNetPoint/Pods-BankAndNetPoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01E688521DD981A00F26184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03F983621E231B1003F4CD2 /* MQLKuaiDiShangJiaDataModel.m in Sources */,
+				D01E68B421DD9BC300F26184 /* JRNetworking.m in Sources */,
+				D01EFC1121E33ABE00B46957 /* MQLKuaiDiChaXunFinalViewController.m in Sources */,
+				D03F983221E23169003F4CD2 /* MQLKuaiDiShangJiaViewController.m in Sources */,
+				D03F982721E22FB0003F4CD2 /* MQLBankCollectionViewCell.m in Sources */,
+				D03F981A21E22FB0003F4CD2 /* MQLSecondAreaCollectionViewCell.m in Sources */,
+				D03F982521E22FB0003F4CD2 /* MQLRootViewController.m in Sources */,
+				D01E68B721DD9BC300F26184 /* JRBaseNavigationController.m in Sources */,
+				D03F985E21E31F8F003F4CD2 /* MQLKuaiDiSecondAreaViewController.m in Sources */,
+				D03F981621E22FB0003F4CD2 /* MQLAreaViewController.m in Sources */,
+				D01E68BC21DDA3D600F26184 /* MQLNavigationController.m in Sources */,
+				D01E689C21DD981E00F26184 /* main.m in Sources */,
+				D03F984A21E2F095003F4CD2 /* MQLKuaiDiFirstAreaViewModel.m in Sources */,
+				D03F982321E22FB0003F4CD2 /* MQLRootDataModel.m in Sources */,
+				D03F986521E31FF1003F4CD2 /* MQLKuaiDiSecondAreaViewModel.m in Sources */,
+				D01EFC0A21E33A8300B46957 /* MQLKuaiDiChaXunFinalDataModel.m in Sources */,
+				D03F985321E30E29003F4CD2 /* MQLKuaiDiFirstAreaCollectionViewCell.m in Sources */,
+				D01EFC0D21E33A9C00B46957 /* MQLKuaiDiChaXunFinalViewModel.m in Sources */,
+				D03F983D21E2E231003F4CD2 /* MQLKuaiDiShangJiaCollectionViewCell.m in Sources */,
+				D03F982021E22FB0003F4CD2 /* MQLCNAPSDataModel.m in Sources */,
+				D01E688E21DD981A00F26184 /* AppDelegate.m in Sources */,
+				D03F981821E22FB0003F4CD2 /* MQLFirstAreaHeaderView.m in Sources */,
+				D03F986921E327E0003F4CD2 /* MQLKuaiDiSecondAreaCollectionViewCell.m in Sources */,
+				D03F981B21E22FB0003F4CD2 /* MQLAreaViewModel.m in Sources */,
+				D03F981421E22FB0003F4CD2 /* MQLAreaDataModel.m in Sources */,
+				D03F984721E2EFE6003F4CD2 /* MQLKuaiDiFirstAreaDataModel.m in Sources */,
+				D01EFC1621E3471600B46957 /* MQLKuaiDiChaXunFinalCollectionViewCell.m in Sources */,
+				D01E68B621DD9BC300F26184 /* JRBaseTabBarController.m in Sources */,
+				D01E68B821DD9BC300F26184 /* JRBaseViewController.m in Sources */,
+				D03F982121E22FB0003F4CD2 /* MQLCNAPSViewModel.m in Sources */,
+				D03F984E21E2F15A003F4CD2 /* MQLKuaiDiFirstAreaViewController.m in Sources */,
+				D01E68B521DD9BC300F26184 /* MBProgressHUD+JRAdditional.m in Sources */,
+				D03F986221E31FD6003F4CD2 /* MQLKuaiDiSecondAreaDataModel.m in Sources */,
+				D03F981E21E22FB0003F4CD2 /* MQLCNAPSCollectionViewCell.m in Sources */,
+				D03F982221E22FB0003F4CD2 /* MQLRootViewModel.m in Sources */,
+				D03F983921E231C9003F4CD2 /* MQLKuaiDiShangJiaViewModel.m in Sources */,
+				D03F981C21E22FB0003F4CD2 /* MQLCNAPSViewController.m in Sources */,
+				D01E68B321DD9BC300F26184 /* JRViewCoordinateMacro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D01E68CB21DDA85D00F26184 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01E68CC21DDA85D00F26184 /* en */,
+				D01E68CF21DDA86800F26184 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D01E689D21DD981E00F26184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D01E689E21DD981E00F26184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01E68A021DD981E00F26184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7FC52F1621654C5FBC19FA /* Pods-BankAndNetPoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2B3LVG7M7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BankAndNetPoint/PrefixHeader.pch";
+				INFOPLIST_FILE = BankAndNetPoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BankAndNetPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D01E68A121DD981E00F26184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE24CAE086CA39129535BA6 /* Pods-BankAndNetPoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2B3LVG7M7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BankAndNetPoint/PrefixHeader.pch";
+				INFOPLIST_FILE = BankAndNetPoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BankAndNetPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01E688421DD981A00F26184 /* Build configuration list for PBXProject "BankAndNetPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01E689D21DD981E00F26184 /* Debug */,
+				D01E689E21DD981E00F26184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01E689F21DD981E00F26184 /* Build configuration list for PBXNativeTarget "BankAndNetPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01E68A021DD981E00F26184 /* Debug */,
+				D01E68A121DD981E00F26184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01E688121DD981A00F26184 /* Project object */;
+}

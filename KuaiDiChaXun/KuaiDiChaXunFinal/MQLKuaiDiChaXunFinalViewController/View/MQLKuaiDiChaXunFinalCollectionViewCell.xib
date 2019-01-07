@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MQLKuaiDiChaXunFinalCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="275"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="275"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HKw-yO-zMv">
+                        <rect key="frame" x="0.0" y="0.0" width="391" height="275"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="HKw-yO-zMv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5I4-wF-eeO"/>
+                <constraint firstAttribute="trailing" secondItem="HKw-yO-zMv" secondAttribute="trailing" id="LVE-mL-Ls6"/>
+                <constraint firstItem="HKw-yO-zMv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XLU-CV-TP9"/>
+                <constraint firstAttribute="bottom" secondItem="HKw-yO-zMv" secondAttribute="bottom" id="xsB-wW-kB4"/>
+            </constraints>
+            <size key="customSize" width="391" height="275"/>
+            <connections>
+                <outlet property="textView" destination="HKw-yO-zMv" id="dne-gQ-jyv"/>
+            </connections>
+            <point key="canvasLocation" x="18.399999999999999" y="149.77511244377811"/>
+        </collectionViewCell>
+    </objects>
+</document>

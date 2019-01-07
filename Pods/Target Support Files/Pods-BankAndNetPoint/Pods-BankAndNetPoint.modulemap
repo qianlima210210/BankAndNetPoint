@@ -1,0 +1,6 @@
+framework module Pods_BankAndNetPoint {
+  umbrella header "Pods-BankAndNetPoint-umbrella.h"
+
+  export *
+  module * { export * }
+}
