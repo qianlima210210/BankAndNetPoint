@@ -9,5 +9,6 @@ use_frameworks!
     pod 'YYModel'
     pod 'Masonry'
     pod 'MJRefresh'
+    pod 'YYText'
   
 end
